@@ -1,0 +1,31 @@
+<launch>
+  <node pkg="proxy_mapping" type="proxy_mapping" name="proxy_mapping" output="screen">
+
+	<!-- topics-->
+    	<param name="map_publish_topic"         value="map_point"/>
+	<param name="sensor_model_publish_topic"  value="sensor_model"/>
+    	<param name="pcl_subscribe_topic"       value="/Proximity_sensor"/> 
+
+	<!-- map-->
+	<param name="map_resolution" 		value="0.02"/>
+	<param name="x_min" 			value="-1.0"/>
+	<param name="x_max" 			value="1.0"/>
+	<param name="y_min" 			value="-1.0"/>
+	<param name="y_max" 			value="1.0"/>
+	<param name="z_min" 			value="0.0"/>
+	<param name="z_max" 			value="2.0"/>
+
+	<param name="resolution_ratio"		value="20.0"/>
+
+	<param name="leaf_size"			value="0.01"/>
+
+	<param name="max_clamping"		value="5.0"/>
+	<param name="min_clamping"		value="-5.0"/>
+
+	<!-- pointcloud-->
+   	<param name="sensor_frame"       	value="/proximity_sensor"/> 
+   	<param name="base_frame"       		value="/ground"/> 
+
+
+  </node>
+</launch>
