@@ -6,6 +6,8 @@ proxy_mapping/launch/proxy_mapping.launch
 
 ![image](https://user-images.githubusercontent.com/35325906/71657935-4208e180-2d85-11ea-849a-ec1121aef589.png)
 
+#### Pointcloud topic name
+
 - **`map_publish_topic`**           
 
 name of map representation topic <Pointcloud>
@@ -18,6 +20,7 @@ name of sensor model visualization topic <Pointcloud>, It represents the updatin
 
 name of the subscribing topic that published from the distance sensor
 
+#### Map setting
 
 - **`map_resolution`** 		          
 
@@ -63,6 +66,7 @@ clamping value for dynamic adoptation (option), check the octomap paper
 
 clamping value for dynamic adoptation (option), check the octomap paper
 
+#### Frame name
 
 - **`sensor_frame`**       	        
 
