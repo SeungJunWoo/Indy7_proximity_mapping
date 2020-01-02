@@ -28,3 +28,8 @@ proxy_mapping/launch/proxy_mapping.launch
 
 - ***sensor_frame***       	        : name of the sensor frame in the tf-tree
 - ***base_frame***       		        : name of the global frame in the tf-tree
+
+
+# Sensor model
+
+you can customize your own sensor model in **proxy_mapping/src/sensor_model.cpp**.
