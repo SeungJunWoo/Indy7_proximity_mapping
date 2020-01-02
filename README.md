@@ -1,4 +1,4 @@
-# Stairway Mapping
+# Occupancy-Grid Mapping
 
 ![image](https://user-images.githubusercontent.com/35325906/71663271-d67c3f80-2d97-11ea-9d56-ea544e9eee86.png)
 
