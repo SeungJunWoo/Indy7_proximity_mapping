@@ -1,5 +1,11 @@
 # Occupancy-Grid Mapping
 
+## Information
+
+**Author: Seungjun Woo<br />
+Affiliation: [RISE](https://rise.skku.edu/)<br />
+Maintainer: Seungjun Woo, wsj6928@gmail.com<br />**
+
 ![image](https://user-images.githubusercontent.com/35325906/71663271-d67c3f80-2d97-11ea-9d56-ea544e9eee86.png)
 
 ## Installation
