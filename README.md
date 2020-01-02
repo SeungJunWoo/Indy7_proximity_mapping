@@ -15,7 +15,7 @@ This software is built on the Robotic Operating System ([ROS]), which needs to b
 In order to install the Robot-Centric Elevation Mapping, clone the latest version from this repository into your catkin workspace and compile the package using ROS.
 
     cd catkin_workspace/src
-    git clone https://github.com/anybotics/elevation_mapping.git
+    git clone https://github.com/wsj6928/Indy7_proximity_mapping.git
     cd ../
     catkin_make
 
