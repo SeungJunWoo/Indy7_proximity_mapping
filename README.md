@@ -1,6 +1,8 @@
+# Stairway Mapping
+
 ![image](https://user-images.githubusercontent.com/35325906/71663271-d67c3f80-2d97-11ea-9d56-ea544e9eee86.png)
 
-# Parameter
+## Parameter
 
 proxy_mapping/launch/proxy_mapping.launch
 
@@ -77,7 +79,7 @@ name of the sensor frame in the tf-tree
 name of the global frame in the tf-tree
 
 
-# Sensor model
+## Sensor model
 
 you can customize your own sensor model in **proxy_mapping/src/sensor_model.cpp**.
 
