@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/35325906/71663271-d67c3f80-2d97-11ea-9d56-ea544e9eee86.png)
+
 # Parameter
 
 proxy_mapping/launch/proxy_mapping.launch
@@ -6,7 +8,7 @@ proxy_mapping/launch/proxy_mapping.launch
 
 
 - ***map_publish_topic***           : name of map representation topic <Pointcloud>
-- ***sensor_model_publish_topic***  : name of sensor model visualization topic <Pointcloud>, It represents the updating points
+- ***sensor_model_publish_topic***  : name of sensor model visualization topic <Pointcloud>, It represents the updating points, red points from the figure above
 - ***pcl_subscribe_topic***         : name of the subscribing topic that published from the distance sensor
 
 
