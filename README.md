@@ -35,3 +35,7 @@ proxy_mapping/launch/proxy_mapping.launch
 # Sensor model
 
 you can customize your own sensor model in **proxy_mapping/src/sensor_model.cpp**.
+
+input: t, the point between the sensor and an object (t=0, sensor position),(t=1, object position)
+
+output: log-odd update value
