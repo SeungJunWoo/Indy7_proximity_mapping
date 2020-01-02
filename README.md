@@ -2,6 +2,23 @@
 
 ![image](https://user-images.githubusercontent.com/35325906/71663271-d67c3f80-2d97-11ea-9d56-ea544e9eee86.png)
 
+## Installation
+
+### Dependencies
+
+This software is built on the Robotic Operating System ([ROS]), which needs to be [installed](http://wiki.ros.org) first. Additionally, it depends on following software:
+
+- [Point Cloud Library (PCL)](http://pointclouds.org/) (point cloud processing).
+
+### Building
+
+In order to install the Robot-Centric Elevation Mapping, clone the latest version from this repository into your catkin workspace and compile the package using ROS.
+
+    cd catkin_workspace/src
+    git clone https://github.com/anybotics/elevation_mapping.git
+    cd ../
+    catkin_make
+
 ## Parameter
 
 proxy_mapping/launch/proxy_mapping.launch
